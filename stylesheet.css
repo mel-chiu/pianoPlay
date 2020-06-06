@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+*{
+    font-family: 'Romanesco', cursive;
+}
+body{
+    background-image: url(https://www.arts.gov/sites/default/files/styles/large-620/public/PianoKeyboard.jpg?itok=-51vtaj8);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: ivory;
+    position: fixed;
+    top: 0%;
+    left: 27%;
+    font-size: 80px;
+}
+.set{
+    position: fixed;
+    top: 40%;
+    left: 25%;
+}
+.key{
+    width: 80px;
+    height: 80px;
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 90%;
+}
+
+
+
+footer{
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    color: ivory;
+}
